@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 3rem;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #2a2ca7;
+    font-weight: 600;
+}
+header div:nth-child(2) {
+    padding-top: 10px;
+    padding-bottom: 0;
+
+}
+.icon {
+    width: 30px;
+}
+.header-icon {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-background {
+    background-color: #abadfd;
+    padding: 5px 15px;
+    border-radius: 50%;
+    margin: 5px;
+}
+nav div {
+    display: flex;
+    justify-content: left;
+}
